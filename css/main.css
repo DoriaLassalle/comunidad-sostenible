@@ -1,0 +1,37 @@
+header a{
+    font-size: 1.2rem;
+    min-width: 100px;
+}
+
+#fondo_verde_textura{
+    background-image: url("../img/fondo_verde.jpg") ;
+} 
+
+.fondo2{
+    background-image: url("../img/fondo2.jpg");
+}
+
+.col_border{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.col_border2{
+    border: 2px solid gray;
+   
+}
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;    
+ }
+
+
+
+ 
+  
+  
+  
+
+
+

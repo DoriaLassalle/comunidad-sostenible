@@ -1,0 +1,101 @@
+/*Global*/
+
+/* *{
+	font-family: 'OpenSans-Light', Helvetica;
+} */
+
+@font-face{
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/Open/OpenSans-Regular.ttf"') /* format('truetype') */ ;
+}
+@font-face{
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/Open/OpenSans-Light.ttf');
+}
+@font-face{
+	font-family: 'OpenSans-Bold';
+	src: url('../fonts/Open/OpenSans-Bold.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Shortcuts */
+
+ body{
+	font-family: 'OpenSans-Regular';
+}  
+
+.pd-0 {
+	padding: 0;
+}
+.pt-5 {
+	padding-top: 5%;
+}
+.pt-10 {
+	padding-top: 10%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pd-5 {
+	padding: 5%;
+}
+.pd-5-10{
+	padding: 5% 10%;
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-bold{
+	font-weight: bold;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(162, 163, 163);
+}
+.text-blue{
+ color: #192951;
+}
+.text-black{
+	color: #4D4D4D;
+}
+.text-green{
+	color: #5E8039;
+}
+.text-yellow{
+	color: #fac60e;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: #ebe7e7;
+}
+.bg-green{
+	background-color: #5E8039;
+}
+.bg-black{
+	background-color: #4D4D4D;
+}
+
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
